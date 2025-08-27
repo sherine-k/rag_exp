@@ -1,0 +1,33 @@
+{
+    "ID": 1959921824393334784,
+    "ProwJob": {
+        "Name": "periodic-ci-openshift-multiarch-master-nightly-4.20-ocp-e2e-gcp-ovn-multi-a-a"
+    },
+    "ClusterData": {
+        "Release": "4.20",
+        "FromRelease": "",
+        "Platform": "gcp",
+        "Architecture": "arm64",
+        "Network": "ovn",
+        "Topology": "ha",
+        "NetworkStack": "IPv4",
+        "CloudRegion": "us-central1",
+        "CloudZone": "us-central1-a",
+        "ClusterVersionHistory": [
+            "4.20.0-0.nightly-multi-2025-08-25-035718"
+        ],
+        "MasterNodesUpdated": "N"
+    },
+    "Tests": [
+        {
+            "Test": {
+                "Name": "[sig-olmv1][OCPFeatureGate:NewOLM][Skipped:Disconnected] OLMv1 New Catalog Install should fail to install if it has an invalid reference"
+            },
+            "Suite": {
+                "Name": "openshift-tests"
+            },
+            "Status": 12
+        }
+    ],
+    "TestCount": 3631
+}
